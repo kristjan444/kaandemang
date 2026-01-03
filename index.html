@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Käändemäng</title>
+    <link rel="icon" href="">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Käändemäng</h1>
+
+        <div id="game-hud" style="display: none;">
+            <div id="score">Punktid: 0</div>
+            <div id="timer">Aeg: 0</div>
+
+            <div id="question-container" style="margin-top: 20px;">
+                <h2 id="target-word" style="font-size: 2.5rem; margin-bottom: 5px;">---</h2>
+                <p id="target-case" style="font-size: 1.5rem; color: #a5b4fc; font-weight: bold; text-transform: uppercase; letter-spacing: 2px;">---</p>
+            </div>
+        </div>
+
+        <div id="words"></div>
+
+        <div id="start-buttons">
+            <div id="main-menu">
+                <button onclick="showTimeSelection()">
+                    <span class="material-icons">play_arrow</span> Mängi
+                </button>
+            </div>
+            <div id="time-selection" style="display: none;">
+                <p>Vali mängu kestvus:</p>
+                <button onclick="startGame(30)">30 sek</button>
+                <button onclick="startGame(60)">1 min</button>
+                <button onclick="startGame(120)">2 min</button>
+                <br>
+                <button onclick="backToMenu()" style="font-size: 0.9rem; opacity: 0.7; border: none; margin-top: 15px;">
+                     <span class="material-icons">arrow_back</span> Tagasi
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="gameOver" class="game-over">
+        <h2>Läbi!</h2>
+        <div id="finalScore"></div>
+        <button onclick="retry()">
+            <span class="material-icons">replay</span> Proovi veel
+        </button>
+        <button onclick="goToMenu()">
+            <span class="material-icons">arrow_back</span> Tagasi
+        </button>
+    </div>
+<script src="dictionary.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+const dictionary = [
+    { nimetav: "Värav", omastav: "Värava", osastav: "Väravat", seestütlev: "Väravast", sisseütlev: "Väravasse" },
+{ nimetav: "Telefonid", omastav: "Telefonide", osastav: "Telefone", seestütlev: "Telefonidest", sisseütlev: "Telefonidesse" },
+{ nimetav: "Dialoogid", omastav: "Dialoogide", osastav: "Dialooge", seestütlev: "Dialoogidest", sisseütlev: "Dialoogidesse" },
+{ nimetav: "Pensionid", omastav: "Pensionide", osastav: "Pensione", seestütlev: "Pensionidest", sisseütlev: "Pensionidesse" },
+{ nimetav: "Lühend", omastav: "Lühendi", osastav: "Lühendit", seestütlev: "Lühendist", sisseütlev: "Lühendisse" },
+{ nimetav: "Oktoober", omastav: "Oktoobri", osastav: "Oktoobrit", seestütlev: "Oktoobrist", sisseütlev: "Oktoobrisse" },
+{ nimetav: "Seade", omastav: "Seadme", osastav: "Seadet", seestütlev: "Seadmest", sisseütlev: "Seadmesse" },
+{ nimetav: "Kaksik", omastav: "Kaksiku", osastav: "Kaksikut", seestütlev: "Kaksikust", sisseütlev: "Kaksikusse" },
+{ nimetav: "Seened", omastav: "Seente", osastav: "Seeni", seestütlev: "Seentest", sisseütlev: "Seentesse" },
+{ nimetav: "Salat", omastav: "Salati", osastav: "Salatit", seestütlev: "Salatist", sisseütlev: "Salatisse" },
+{ nimetav: "Klaver", omastav: "Klaveri", osastav: "Klaverit", seestütlev: "Klaverist", sisseütlev: "Klaverisse" },
+{ nimetav: "Kalkun", omastav: "Kalkuni", osastav: "Kalkunit", seestütlev: "Kalkunist", sisseütlev: "Kalkunisse" },
+{ nimetav: "Kahjum", omastav: "Kahjumi", osastav: "Kahjumit", seestütlev: "Kahjumist", sisseütlev: "Kahjumisse" },
+{ nimetav: "Kosmos", omastav: "Kosmose", osastav: "Kosmost", seestütlev: "Kosmosest", sisseütlev: "Kosmosesse" },
+{ nimetav: "Joonis", omastav: "Joonise", osastav: "Joonist", seestütlev: "Joonisest", sisseütlev: "Joonisesse" },
+{ nimetav: "Kuused", omastav: "Kuuskede", osastav: "Kuuski", seestütlev: "Kuuskedest", sisseütlev: "Kuuskedesse" },
+{ nimetav: "Röster", omastav: "Röstri", osastav: "Röstrit", seestütlev: "Röstrist", sisseütlev: "Röstrisse" },
+{ nimetav: "Treener", omastav: "Treeneri", osastav: "Treenerit", seestütlev: "Treenerist", sisseütlev: "Treenerisse" },
+{ nimetav: "Õpetajad", omastav: "Õpetajate", osastav: "Õpetajaid", seestütlev: "Õpetajatest", sisseütlev: "Õpetajatesse" },
+{ nimetav: "Õigus", omastav: "Õiguse", osastav: "Õigust", seestütlev: "Õigusest", sisseütlev: "Õigusesse" }
+];
