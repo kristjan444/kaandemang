@@ -58,5 +58,6 @@ const dictionary = [
     { nimetav: "Meri", omastav: "Mere", osastav: "Merd", seestütlev: "Merest", sisseütlev: "Meresse" },
     { nimetav: "Turg", omastav: "Turu", osastav: "Turgu", seestütlev: "Turust", sisseütlev: "Turusse" },
     { nimetav: "Lind", omastav: "Linnu", osastav: "Lindu", seestütlev: "Linnust", sisseütlev: "Linnusse" },
-    { nimetav: "Hõbe", omastav: "Hõbeda", osastav: "Hõbedat", seestütlev: "Hõbedast", sisseütlev: "Hõbedasse" }
+    { nimetav: "Hõbe", omastav: "Hõbeda", osastav: "Hõbedat", seestütlev: "Hõbedast", sisseütlev: "Hõbedasse" },
+    { nimetav: "Kuuskümmend seitse", omastav: "Kuuekümne seitsme", osastav: "Kuutkümmend seitset", seestütlev: "Kuuekümnest seitsmest", sisseütlev: "Kuuekümnesse seitsmesse" }
 ];
